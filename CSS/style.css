@@ -239,7 +239,7 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: black;
+  color: var(--main-color);
   transform: rotate(calc(360deg / 6 * var(--i)));
   transform-origin: 384px;
   background: var(--bg-color);
