@@ -54,16 +54,9 @@ window.onscroll = () => {
 /*================================== Dark mode ==================================*/
 
 
-// iconsHidden.style.display = "none";
+    let iconsHidden = document.querySelector(".profession-box-hidden"); 
 
-
-    // let iconsHidden = document.querySelector(".profession-box-hidden"); 
-
-    // if (window.innerWidth > 768) {
-    //     iconsHidden.style.display = remove;
-    //   } else {
-    //     iconsHidden.style.display = "none"; // Esto oculta el elemento cuando el ancho es menor o igual a 768px
-    //   }
+    iconsHidden.style.display = window.innerWidth <= 768 ? "flex" : "none";
   
 /*================================== Typed  ==================================*/
 
