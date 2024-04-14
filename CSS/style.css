@@ -132,6 +132,10 @@ section {
   color: var(--main-color);
 }
 
+.home-content h3:nth-of-type(2) {
+  margin-bottom: 2rem;
+}
+
 .home-content h1 {
   font-size: 5.6rem;
   font-weight: 700;
@@ -193,6 +197,7 @@ section {
   overflow: hidden;
   pointer-events: none;
 }
+
 
 .home .profession-container .profession-box {
   position: absolute;
@@ -269,6 +274,15 @@ section {
   border-left: 384px solid transparent;
 }
 
+.home .profession-container .profession-box-hidden{
+  display: flex;
+  position: absolute;
+  bottom: 30%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
 .home-img img {
   position: absolute;
   bottom: 0;
@@ -308,12 +322,13 @@ span {
 }
 
 .about-content h3 {
-  font-size: 2rem;
+  font-size: 2.8rem;
+  margin: 2rem 0 3rem;
 }
 
 .about-content p {
-  font-size: 1.6rem;
-  margin: 2rem 0 3rem;
+  font-size: 2rem;
+  /* margin: 2rem 0 3rem; */
 }
 
 .projects {

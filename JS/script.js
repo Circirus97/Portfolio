@@ -51,6 +51,30 @@ window.onscroll = () => {
 
 };
 
+/*================================== Dark mode ==================================*/
+
+
+// iconsHidden.style.display = "none";
+
+
+    // let iconsHidden = document.querySelector(".profession-box-hidden"); 
+
+    // if (window.innerWidth > 768) {
+    //     iconsHidden.style.display = remove;
+    //   } else {
+    //     iconsHidden.style.display = "none"; // Esto oculta el elemento cuando el ancho es menor o igual a 768px
+    //   }
+  
+/*================================== Typed  ==================================*/
+
+
+const typed = new Typed(".multiple-text", {
+    strings: ["Desarrolladora junior"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
 
 
 /*================================== Dark mode ==================================*/
