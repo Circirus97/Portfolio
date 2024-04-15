@@ -56,7 +56,7 @@ window.onscroll = () => {
 
     let iconsHidden = document.querySelector(".profession-box-hidden"); 
 
-    iconsHidden.style.display = window.innerWidth <= 768 ? "flex" : "none";
+    // iconsHidden.style.display = window.innerWidth <= 768 ? "flex" : "none";
   
 /*================================== Typed  ==================================*/
 
