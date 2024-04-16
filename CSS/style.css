@@ -489,6 +489,25 @@ span {
     margin-top: -2rem;
   }
 
+  .skill-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(100vw / 4 - 2rem), 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 15%;
+  }
+
+  .skill-box-program {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(100vw / 4 - 2rem), 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: 5rem;
+    margin: auto;
+  }
+  
+
   .projects {
     margin-bottom: 3rem;
   }
