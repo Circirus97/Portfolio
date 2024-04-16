@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Truculenta", sans-serif;
+}
+
+/* PYTHON */
+
+.skill-python {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-python {
+  width: 100px;
+  height: 100px;
+  background: url(../img/python.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px #CCFF00);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-python:hover {
+  cursor: pointer;
+}
+
+/* HTML */
+
+.skill-html {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-html {
+  width: 100px;
+  height: 100px;
+  background: url(../img/html.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px  #fc4b08);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-html:hover {
+  cursor: pointer;
+}
+
+/* CSS */
+
+.skill-css {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-css {
+  width: 100px;
+  height: 100px;
+  background: url(../img/css.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px #00ffff);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-css:hover {
+  cursor: pointer;
+}
+
+/* JAVASCRIPT */
+
+.skill-javascript {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-javascript {
+  width: 100px;
+  height: 100px;
+  background: url(../img/javascript.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px #e5be01);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-javascript:hover {
+  cursor: pointer;
+}
+
+/* MYSQL */
+
+.skill-mysql {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-mysql {
+  width: 100px;
+  height: 100px;
+  background: url(../img/mysql.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px 	#5DC1B9);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-mysql:hover {
+  cursor: pointer;
+}
+
+/* JAVA */
+
+.skill-java {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-java {
+  width: 100px;
+  height: 100px;
+  background: url(../img/java.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px #FF0000);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-java:hover {
+  cursor: pointer;
+}
+
+/* SPRING BOOT */
+
+.skill-spring-boot {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-spring-boot {
+  width: 100px;
+  height: 100px;
+  background: url(../img/Spring\ Boot.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px #ACF6C8);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-spring-boot:hover {
+  cursor: pointer;
+}
+
+/* GITHUB */
+
+.skill-github {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-github {
+  width: 100px;
+  height: 100px;
+  background: url(../img/github.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px #ffffff);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-github:hover {
+  cursor: pointer;
+}
+
+/* GIT */
+
+.skill-git {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-git {
+  width: 100px;
+  height: 100px;
+  background: url(../img/git.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px #fc4b08);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-git:hover {
+  cursor: pointer;
+}
+
+/* BOOTSTRAP */
+
+.skill-bootstrap {
+  height: 13vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+}
+
+.logo-bootstrap {
+  width: 100px;
+  height: 100px;
+  background: url(../img/bootstrap.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  filter: drop-shadow(0px 7px 21px #aa00ff);
+  animation: rotate 5s linear infinite;
+}
+
+.logo-bootstrap:hover {
+  cursor: pointer;
+}
+
+/* SPRING BOOT */
+
+@keyframes rotate {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(-180deg);
+  }
+}
