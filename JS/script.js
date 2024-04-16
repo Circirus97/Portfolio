@@ -70,15 +70,6 @@ const typed = new Typed(".multiple-text", {
 });
 
 
-/*================================== Dark mode ==================================*/
-
-let darkModeIcon = document.querySelector("#darkMode-icon");
-
-darkModeIcon.onclick = () => {
-    darkModeIcon.classList.toggle("bx-sun")
-    document.body.classList.toggle("dark-mode");
-};
-
 /*================================== Scroll reveal ==================================*/
 ScrollReveal({ 
     reset: true,

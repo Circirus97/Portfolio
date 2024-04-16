@@ -12,19 +12,13 @@
 }
 
 :root {
-  --bg-color: #fdfdfd;
-  --text-color: #333;
-  --main-color: #000080;
-  --white-color: #fdfdfd;
-  --shadow-color: rgba(0, 0, 0, 0.2);
-}
-
-.dark-mode {
   --bg-color: #0b061f;
   --text-color: #fdfdfd;
   --main-color: yellowgreen;
   --shadow-color: rgba(0, 0, 0, 0.7);
+  --white-color: #fdfdfd;
 }
+
 
 html {
   font-size: 62.5%;
@@ -188,7 +182,6 @@ section {
   border-color: var(--main-color);
 }
 
-
 .home-img img {
   width: 80%;
   pointer-events: none;
@@ -234,18 +227,27 @@ span {
   margin-bottom: 2rem;
 }
 
-.skill-container .skill-text{
+.skill-container .skill-text {
   font-size: 2rem;
   margin: 2rem 0 3rem;
 }
 
-
-.skill-box{
+.skill-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 2rem;
+  flex-direction: row;
+}
+
+.skill-box-program{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  flex-direction: row;
 }
 
 .projects {
@@ -336,11 +338,11 @@ span {
   color: #333;
 }
 
-.particles-js-canvas-el{
+.particles-js-canvas-el {
   position: fixed;
   top: 0;
   z-index: -1;
-  opacity: 15%;
+  opacity: 20%;
 }
 
 /* BREAKPOINTS */
@@ -355,11 +357,11 @@ span {
     padding: 5rem 5% 1rem;
   }
 
-  .home{
+  .home {
     flex-direction: column-reverse;
   }
 
-  .home-img{
+  .home-img {
     display: flex;
     justify-content: center;
   }
@@ -368,14 +370,12 @@ span {
     width: 50%;
     pointer-events: none;
   }
-
 }
 
 @media (max-width: 1024px) {
   .header {
     padding: 2rem 3%;
   }
-
 }
 
 @media (max-width: 991px) {
@@ -389,11 +389,11 @@ span {
     opacity: 0.7;
   }
 
-  .home{
-    align-items: center
-  };
+  .home {
+    align-items: center;
+  }
 
-  .home-img{
+  .home-img {
     display: flex;
     justify-content: center;
   }
@@ -516,7 +516,6 @@ span {
     margin: 2rem 0 3rem;
   }
 }
-
 
 @media (max-width: 450px) {
   html {
